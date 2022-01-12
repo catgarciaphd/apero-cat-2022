@@ -1,2 +1,2 @@
 # apero-cat-2022
-Academic Website using Hugo Apero
+Academic Website using Hugo Apero.
