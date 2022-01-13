@@ -33,7 +33,7 @@ enableEmoji = true
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["publications", "talk", "blog"]
+  mainSections = ["publications", "talk", "teaching", "blog"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -71,7 +71,7 @@ enableEmoji = true
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
     use_utterances = true
-    repo_name = "catgarciaphd/myrepo"
+    repo_name = "catgarciaphd/apero-cat-2022"
     issue_term = "pathname" # url, pathname, or title
     theme = "boxy-light"
     label = "comments :crystal_ball:"
