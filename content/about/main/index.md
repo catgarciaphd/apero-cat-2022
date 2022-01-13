@@ -6,7 +6,7 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  I am an assistant professor of Human Development and Family Science with affiliations in the Aging Studies Institute, Center for Aging and Policy Studies, and the Lerner Center for Public Health Promotion at Syracuse University.
+  I am an assistant professor in the [Department of Human Development and Family Science](https://falk.syr.edu/hdfs/) at Syracuse University, with affiliations in the [Aging Studies Institute](https://asi.syr.edu), [Center for Aging and Policy Studies](https://asi.syr.edu/caps/), and the [Lerner Center for Public Health Promotion](https://lernercenter.syr.edu).
   
   As a gerontologist, the primary objective of my research is to inform efforts aimed at reducing race/ethnic health disparities that characterize our growing older adult population. I primarily use large, population-based survey data (e.g., Health and Retirement Study) to examine the social determinants of older adult health and healthy aging. Namely, I am interested in how sociocultural characteristics (e.g., race/ethnicity, nativity, and ethnic origin), neighborhoods and the built environment, and the social and community context influence the disease process that lead to adverse health outcomes and disproportionate disease burden among Latina/o/xs in later life. My research is rooted in a long tradition of sociology and epidemiological inquiry into how social stratification translates into health risks. 
   
