@@ -1,6 +1,6 @@
 ---
 title: Teaching
-description: Here is some information related to the courses I have taught.
+description: This section will be updated soon.
 author:
 show_post_thumbnail: true
 thumbnail_left: true # for list-sidebar only
