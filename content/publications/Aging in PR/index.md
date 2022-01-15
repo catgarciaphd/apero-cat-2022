@@ -1,6 +1,6 @@
 ---
 authors:
-- Catherine Pérez
+- Catherine García
 - Jennifer A. Ailshire
 date: "2017-06-09"
 doi: "10.1111/papt.12278"

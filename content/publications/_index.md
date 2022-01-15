@@ -1,6 +1,6 @@
 ---
 title: Publications
-description:
+description: This section is being updated.
 author:
 show_post_thumbnail: true
 thumbnail_left: true # for list-sidebar only
