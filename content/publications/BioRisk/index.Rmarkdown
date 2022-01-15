@@ -1,0 +1,58 @@
+---
+title: 'Biological risk profiles among Latino subgroups in the Health and Retirement Study.'
+date: '2019-06-29'
+slug: sced-cat-bpd
+categories:
+  - 'Innovation in Aging'
+tags:
+author:
+- García, C., & 
+- Ailshire, J.A.
+doi: 10.1111/papt.12278"
+publishDate: '2019-06-29T01:04:26-04:00'
+publication_types:
+  - '2'
+publication: 'Innovation in Aging, 3(2)'
+publication_short: 'IA'
+abstract: 'Innovation in Aging, 3(2)'
+featured: no
+url_pdf: ~
+url_code: ~
+url_dataset: ~
+url_poster: ~
+url_project: ~
+url_slides: ~
+url_source: https://doi.org/10.1093/geroni/igz017
+url_video: ~
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+slides: ''
+links:
+- icon: doi
+  icon_pack: ai
+  name: doi
+  url: https://doi.org/10.1093/geroni/igz017
+- icon: file-pdf
+  icon_pack: fas
+  name: PDF
+  url: https://www.researchgate.net/publication/334117007_Biological_Risk_Profiles_Among_Latino_Subgroups_in_the_Health_and_Retirement_Study
+#- icon: file-archive
+#  icon_pack: fas
+#  name: BIB
+#  url: content/blog/TDS-paper/shiny-guide.pdf
+
+  
+---
+
+## **Abstract**
+
+**Background and Objectives:** Latinos residing in the United States exhibit an increased risk for cardiovascular and metabolic diseases compared to non-Latino whites. This elevated risk contributes to a significantly higher prevalence of diabetes and hypertension among Latino adults. Examining biological risk profiles of older Latinos as a “pan-ethnic group” and by Latino subpopulations may help to explain the increased burden of disease in later life among this population. The objective of this study is to document biological risk profiles among a nationally representative sample of older U.S. Latinos by nativity and country of origin.
+
+**Research Design and Methods:** We use the 2006–2012 Health and Retirement Study to compare cardiovascular, metabolic, inflammatory and cumulative biological risk among U.S.-born Mexicans, foreign-born Mexicans, U.S.-born Puerto Ricans, island-born Puerto Ricans, U.S.-born “other” Latinos, foreign-born “other” Latinos, and non-Latino whites.
+
+**Results:** Older Latinos exhibit heterogeneous biological risk profiles. U.S.-born Mexicans, foreign-born Mexicans, U.S.-born “other” Latinos, and foreign-born “other” Latinos exhibited a higher rate of cardiovascular risk relative to non-Latino whites. In addition, U.S.-born Mexicans, foreign-born Mexicans, island-born Puerto Ricans, and foreign-born “other” Latinos had a higher rate of metabolic risk than non-Latino whites. Island-born Puerto Ricans were the only group to exhibit higher inflammation than non-Latino whites. The observed differences were largely attenuated by socioeconomic status, indicating that high levels of risk among older Latino subpopulations compared to non-Latino whites are associated with lower socioeconomic status.
+
+**Discussion and Implications:**  Older U.S. Latinos are a demographically diverse population with unique sociocultural characteristics which may contribute to differences in biological risk across the life course that influence disease progression. Examining Latinos by nativity and country of origin may help identify risks specific to individual subpopulations that can lead to culturally appropriate interventions which help prevent and reduce the burden of cardiovascular and metabolic diseases.
