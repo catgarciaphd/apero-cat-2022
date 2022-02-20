@@ -9,6 +9,7 @@ header:
   caption: ""
   image: ""
 title: Publications
+description: This space features my published research.
 view: 2
 
 # Optional header image (relative to `static/img/` folder).

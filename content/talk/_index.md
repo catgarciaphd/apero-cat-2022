@@ -11,7 +11,7 @@ cascade:
     text_link_label: View recent talks
     text_link_url: /talk/
 description: |
-  A list of my talks, workshops, and other events since 2021.
+  This space features invited talks and workshops, each linked with accompanying materials.
 layout: list
 show_author_byline: true
 show_button_links: true

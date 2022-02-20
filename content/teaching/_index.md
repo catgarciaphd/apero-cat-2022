@@ -8,7 +8,8 @@
 header:
   caption: ""
   image: ""
-title: Publications
+title: Teaching
+description: This space features courses I have designed and taught.
 view: 2
 
 # Optional header image (relative to `static/img/` folder).
