@@ -1,36 +1,18 @@
 ---
-title: Teaching
-description: This section will be updated soon.
-author:
-show_post_thumbnail: true
-thumbnail_left: true # for list-sidebar only
-show_author_byline: true
-show_post_date: true
-# for listing page layout
-layout: list # list, list-sidebar, list-grid
+# View.
+#   1 = List
+#   2 = Compact
+#   3 = Card
+#   4 = Citation
 
-# for list-sidebar layout
-sidebar: 
-  title: Teaching
-  description: |
-    Here is some information related to the courses I have taught.
-    
-  author: "Catherine García"
-  text_link_label: Subscribe via RSS
-  text_link_url: /index.xml
-  show_sidebar_adunit: false # show ad container
+header:
+  caption: ""
+  image: ""
+title: Publications
+view: 2
 
-# set up common front matter for all pages inside publication/
-cascade:
-  author: "Catherine García"
-  show_author_byline: true
-  show_post_date: false
-  show_comments: true # see site config to choose Disqus or Utterances
-  # for single-sidebar layout
-  sidebar:
-    text_link_label: View recent posts
-    text_link_url: /teaching/
-    show_sidebar_adunit: false # show ad container
+# Optional header image (relative to `static/img/` folder).
+# header:
+#   caption: ""
+#   image: ""
 ---
-
-** No content below YAML for the blog _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside blog/. You may still override any of these by changing them in a page's front matter.**
