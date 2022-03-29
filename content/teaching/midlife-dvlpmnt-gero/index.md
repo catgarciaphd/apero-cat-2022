@@ -1,7 +1,7 @@
 ---
 aliases: [arm]
 title: Midlife Development and Gerontology
-summary: This course provides a multidisciplinary overview of the theory and research on human development from middle to late life. The course provides an introduction to the aging process, including the historical, cultural, biological, psychological, and social aspects of aging.
+summary: This course provides a multidisciplinary overview of the theory and research on human development from middle to late life. The historical, cultural, biological, psychological, and social aspects of aging are discussed.
 abstract: ""
 date: "2021-08-15T00:00:00Z"
 image:
