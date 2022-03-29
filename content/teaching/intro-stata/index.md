@@ -1,7 +1,7 @@
 ---
 aliases: [arm]
 title: Using Stata
-summary: A six-session workshop that will introduce participants to the basic usage of Stata for data management and analysis. An overview of the main Stata functions will be given by showing them applied to real data examples.
+summary: A six-session workshop that will introduce participants to the basic usage of Stata for data management and analysis. An overview of the main Stata functions will be given by showing them applied to real data examples. The last session is dedicated to working with a data set of the participant's choosing.
 abstract: ""
 date: "2019-07-15T00:00:00Z"
 image:
