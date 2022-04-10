@@ -4,12 +4,12 @@ description: |
   Events I have been invited to present at, shared along with slides, videos, and other linkable resources.
 author: ""
 show_post_thumbnail: true
-thumbnail_left: false
+thumbnail_left: true
 show_author_byline: false
-show_post_date: true
-show_post_time: true
+show_post_date: false
+show_post_time: false
 # for listing page layout
-layout: list 
+layout: list-grid # list, list-sidebar, list-grid
 
 # set up common front matter for all pages inside blog/
 cascade:
