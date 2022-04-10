@@ -1,5 +1,5 @@
 ---
-author: Catherine García, PhD
+author: 
 categories:
 - meetup
 date: "2021-12-13T12:15:59-06:00"
