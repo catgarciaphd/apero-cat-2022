@@ -7,5 +7,5 @@ headline: |
 ---
 
 <!-- this is a subheadline -->
-I'm a Hondurican from Los Angeles, CA that is passionate about all things related to gerontology. 
+I'm a Hondurican from Los Angeles, CA that is passionate about all things related to social and medical gerontology. 
 
