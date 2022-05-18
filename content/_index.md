@@ -2,7 +2,7 @@
 action_label: Learn More About Me &rarr;
 action_link: /about
 action_type: text
-description: I am a social and medical gerontologist, researcher, and educator. 
+description: I am a social and medical gerontologist, population-health researcher, and educator. 
 image_left: true
 images:
 - img/micultura.jpg
