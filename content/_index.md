@@ -8,7 +8,7 @@ images:
 - img/micultura.jpg
 show_action_link: true
 show_social_links: true
-subtitle: Gerontologist and Assistant Professor at Syracuse University.
+subtitle: Assistant Professor at Syracuse University.
 text_align_left: false
 title: Catherine García, PhD
 type: home
