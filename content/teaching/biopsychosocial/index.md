@@ -1,9 +1,8 @@
 ---
-aliases: [arm]
 title: Biopsychosocial Perspectives on Health and Aging
 summary: This course examines an integrated approach to health and aging – the biopsychosocial model – which acknowledges that social and psychological processes interact over time with biological changes to influence the onset and progression of disease, physical functioning, and adaptation to age-related changes.
-abstract: ""
-date: "2023-01-03T00:00:00Z"
+external_link:
+date: "2023-01-03"
 image:
   caption: 
   focal_point: Smart
