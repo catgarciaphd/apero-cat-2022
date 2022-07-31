@@ -2,7 +2,7 @@
 action_label: Learn More About Me &rarr;
 action_link: /about
 action_type: text
-description: I am a gerontologist, researcher, and educator. 
+description: I am a gerontologist, researcher, educator, and learner. 
 image_left: true
 images:
 - img/micultura.jpg

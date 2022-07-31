@@ -13,6 +13,9 @@ link_list:
   url: https://health.gov/healthypeople/objectives-and-data/social-determinants-health
 - name: Biodemography
   url: https://en.wikipedia.org/wiki/Biodemography
+- name: Quantitative Methods
+  url: https://cadc.ucsf.edu/statistical-methods
+
 ---
 
 ** index doesn't contain a body, just front matter above.

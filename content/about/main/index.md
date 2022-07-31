@@ -16,6 +16,8 @@ intro: |
   + PhD in Gerontology from the University of Southern California (2020)
   + MS in Sociology from Florida State University (2014)
   + BA in Sociology from the University of California - Los Angeles (2010)
+  
+  
 show_outro: true
 outro: |
   <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Alison Presmanes Hill](https://www.apreshill.com) for an easy to follow Hugo Apéro tutorial to create this website!
