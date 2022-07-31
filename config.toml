@@ -124,8 +124,8 @@ enableEmoji = true
     url = "/research/"
     weight = 2
   [[menu.header]]
-    name = "The Raíces Lab"
-    title = "The Raíces Lab"
+    name = "Raíces Lab"
+    title = "Raíces Lab"
     url = "/lab/"
     weight = 3
     [[menu.header]]
