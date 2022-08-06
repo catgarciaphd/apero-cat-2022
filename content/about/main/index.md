@@ -13,7 +13,7 @@ intro: |
   
   As a university educator, I have taught courses in quantitative methods and gerontology. In all of my courses I employ a [*sentipensante* pedagogy](https://www.laurarendon.net/sentipensante-pedagogy/), which allows my students to engage in deep learning through contemplative practices that connect the course material to their lived experiences and backgrounds. This is part of realizing my goals of diversity, equity, inclusion, and accessibility (DEIA) in the academy. 
   
-  I completed my PhD in Gerontology from the University of Southern California (2020), an MS in Sociology from Florida State University (2014), and a BA in Sociology with a minor in Human Complex Systems from the University of California - Los Angeles (2010). 
+  I completed my PhD in Gerontology in 2020 from the University of Southern California, an MS in Sociology in 2014 from Florida State University, and a BA in Sociology with a minor in Human Complex Systems in 2010 from the University of California - Los Angeles. Across my educational training, interdisciplinary theory, methods, and approaches in health and aging research have influenced my work and have helped me better organize how to talk about the multifaceted processes underlying disease and population health. 
   
   
   
