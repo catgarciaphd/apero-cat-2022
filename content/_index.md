@@ -1,16 +1,17 @@
 ---
+title: Catherine García, PhD
+subtitle: Assistant Professor at Syracuse University
+description: I am a gerontologist, researcher, educator, and learner.
 action_label: Learn More About Me &rarr;
 action_link: /about
-action_type: text
-description: I am a gerontologist, researcher, educator, and learner. 
+action_type: text # text, button
 image_left: true
 images:
 - img/micultura.jpg
+text_align_left: false
 show_action_link: true
 show_social_links: true
-subtitle: Assistant Professor at Syracuse University.
 text_align_left: false
-title: Catherine García, PhD
 type: home
 ---
 

@@ -119,13 +119,13 @@ enableEmoji = true
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Research"
-    title = "Research"
+    name = "Projects"
+    title = "Projects"
     url = "/research/"
     weight = 2
   [[menu.header]]
-    name = "Raíces Lab"
-    title = "Raíces Lab"
+    name = "Minority Health & Aging Lab"
+    title = "Minority Health & Aging Lab"
     url = "/lab/"
     weight = 3
     [[menu.header]]
