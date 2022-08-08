@@ -1,5 +1,5 @@
 ---
-title: Research
+title: Projects
 description: ""
 author: ""
 show_post_thumbnail: true
