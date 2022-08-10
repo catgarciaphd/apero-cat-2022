@@ -12,17 +12,19 @@ categories:
 ---
 
 
-## About
+## Welcome!
 
-The Minority Aging Lab is situated in the department of Human Development and Family Science at Syracuse University. This lab is dedicated to training undergraduate and graduate students in population health and aging, with an explicit focus on diverse and structurally marginalized populations.  
+The Minority Aging & Health Lab is situated in the department of Human Development and Family Science (HDFS) at Syracuse University. This lab is dedicated to training undergraduate and graduate students in population health and aging, with an explicit focus on diverse and structurally marginalized populations.  
 
-Undergraduate students are strongly encouraged to complete the [**Gerontology Interdisciplinary Minor**](https://asi.syr.edu/education/undergraduate-gerontology-minor/).
+Undergraduate students in the lab are strongly encouraged to complete the [**Gerontology Interdisciplinary Minor**](https://asi.syr.edu/education/undergraduate-gerontology-minor/).
 
-Gradaute students are strongly encouraged to complete the certificate of advanced study (CAS) in [**Population Health & Aging**](https://asi.syr.edu/education/21602-2/).
+Gradaute students in the lab are strongly encouraged to complete the certificate of advanced study (CAS) in [**Population Health & Aging**](https://asi.syr.edu/education/21602-2/).
 
 ---
 
-### Goals
+### Objectives 
+
+Students in the Minority Aging & Health Lab will learn to:
 
 - Understand differences in aging processes across diverse populations. 
 - Identify and understand how environmental, sociocultural, behavioral, and biological factors lead to disparities in health at older ages.
