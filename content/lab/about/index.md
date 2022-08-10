@@ -2,7 +2,7 @@
 title: About the Lab
 subtitle: ""
 excerpt: ""
-date: 2021-08-01
+date: 2022-08-01
 draft: false
 tags:
   - research
