@@ -1,5 +1,5 @@
 ---
-title: The Minority Health & Aging Lab
+title: Minority Health & Aging Lab
 description: Focusing on the Dynamics of the Aging Process among Diverse Populations
 show_post_thumbnail: true
 show_author_byline: false
