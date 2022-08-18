@@ -30,7 +30,6 @@ Students in the Minority Aging & Health Lab will learn to:
 
 - Understand differences in aging processes across diverse populations. 
 - Identify and understand how structural, environmental, sociocultural, behavioral, and biological factors lead to disparities in health at older ages.
-- Explore mechanisms through which the effects of sociostructural factors manifest themselves, as well as critical periods for reversing such effects and/or the optimal timing of intervention.
 - Increase inclusion of underrepresented populations in aging research.
 - Foster interdisciplinary exchange and encourage collaborative research across disciplines.
 - Use appropriate methodological approaches to understand the causes of health disparities and the processes underlying them.
@@ -38,7 +37,8 @@ Students in the Minority Aging & Health Lab will learn to:
 
 ---
 
-
+### Interested in Joining the Minority Aging & Health Lab?
+If you are interested in becoming a part of the Minority Aging & Health Lab at Syracuse University as an undergraduate or graduate student, please fill out the Google interest form. Dr. García will contact you after reviewing the completed form! 
 
 
 
