@@ -14,7 +14,7 @@ categories:
 
 ## Welcome!
 
-The Minority Aging & Health Lab is a space for scholars, scientists, activists, organizers, and students to work together to advance health equity through data collection, analysis, and dissemination. This lab is dedicated to training undergraduate and graduate students in population health and aging, with an explicit focus on diverse and structurally marginalized populations. A primary goal of this lab is to give all trainees the tools they need to tell their own stories and the stories of the communities they come from and care about. 
+The Minority Aging & Health Lab is a space for scholars, scientists, activists, organizers, and students to work together to advance health equity through data collection, analysis, and dissemination. This lab is dedicated to training undergraduate and graduate students in population health and aging, with an explicit focus on diverse and structurally marginalized populations. 
 
 As part of a student's training in population aging and health, we recommend:
 
