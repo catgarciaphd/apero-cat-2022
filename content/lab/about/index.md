@@ -1,7 +1,7 @@
 ---
 title: About the Lab
 subtitle: ""
-excerpt: ""
+excerpt: "Learn more about who we are and what we do"
 date: 2022-08-01
 draft: false
 tags:
