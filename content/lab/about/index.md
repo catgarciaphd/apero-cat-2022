@@ -16,7 +16,7 @@ categories:
 
 The Minority Aging & Health Lab focuses on biopsychosocial approaches to the study of population health at the micro (the individual level), mezzo (the group level), and macro (the community/governmental level) levels to understand and document inequitable conditions shaping health. 
 
-This lab is dedicated to training undergraduate and graduate students in population health and aging, using population-based survey data (e.g., Health and Retirement Study) to explore health disparities and inequities in the U.S. and across the globe. 
+This lab is dedicated to training undergraduate and graduate students in population health and aging, using population-based survey data (e.g., Health and Retirement Study) and mixed-methods to explore health disparities and inequities in the U.S. and across the globe. 
 
 As part of a student's training in population aging and health at Syracuse University, the lab recommends:
 
