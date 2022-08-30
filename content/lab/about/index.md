@@ -37,7 +37,7 @@ As part of a student's training in population aging and health at Syracuse Unive
 ---
 
 ### Interested in Joining the Minority Aging & Health Lab?
-If you are interested in becoming a part of the Minority Aging & Health Lab in the Department of Human Development and Family Science at Syracuse University as an undergraduate or graduate student, please fill out the Google interest form. Dr. García will contact you after reviewing the completed form! 
+If you are interested in becoming a part of the Minority Aging & Health Lab in the Department of Human Development and Family Science at Syracuse University as an undergraduate or graduate student, please fill out the [**Google interest form**](https://forms.gle/6fW1PErMubbuJqez8). Dr. García will contact you after reviewing the completed form! 
 
 The lab meets 1-2 times per month, in a venue in keeping with our commitment to safety and public health. 
 
