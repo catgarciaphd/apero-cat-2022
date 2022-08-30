@@ -1,6 +1,6 @@
 ---
 title: Minority Aging & Health Lab
-description: Focusing on the Dynamics of the Aging Process among Diverse Populations
+description: Focusing on the dynamics of the aging process among diverse populations, including the pathways through which the social environment intersects with biological processes to shape differential outcomes of health and well-being. 
 show_post_thumbnail: true
 show_author_byline: false
 show_post_date: false
