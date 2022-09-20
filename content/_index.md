@@ -1,5 +1,5 @@
 ---
-title: Catherine García, PhD
+title: Dr. Catherine García Pérez
 subtitle: Assistant Professor at Syracuse University
 description: I am a gerontologist, researcher, educator, and learner.
 action_label: Learn More About Me &rarr;

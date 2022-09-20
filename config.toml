@@ -1,8 +1,8 @@
 baseURL = "https://catherinegarciaphd.rbind.io"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Catherine García, PhD"
-author = "Catherine García, PhD"
+title = "Catherine García Pérez"
+author = "Catherine García Pérez"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
