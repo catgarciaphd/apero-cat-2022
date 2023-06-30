@@ -1,6 +1,6 @@
 ---
 title: Projects
-description: "This page will be updated soon on my current projects."
+description: ""
 author: ""
 show_post_thumbnail: true
 show_author_byline: true

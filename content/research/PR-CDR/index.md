@@ -1,16 +1,17 @@
 ---
-title: "Puerto Rico Contextual Data Resource"
+title: "Puerto Rico Contextual Data Resource (PR-CDR)"
 subtitle: "A contextual data resource curated for the Puerto Rican Elderly Health Conditions Project (PREHCO)."
-excerpt: "."
+excerpt: ""
 date: 2023-05-07
 author: ""
 draft: false
 featured: true
 show_post_thumbnail: true
 categories:
-  - dataset
-images:
- - /research/PR-CDR/MainLogo.png
+  - datasets
+image:
+  caption: 
+  focal_point: Smart
 layout: single
 
 ---
