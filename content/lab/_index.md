@@ -1,6 +1,6 @@
 ---
 title: Aging in Diverse Populations Lab
-description: Focused on understanding and reducing health disparities in minority aging populations, including the pathways through which the social environment intersects with biological processes to shape differential outcomes of health and well-being. 
+description: Focused on understanding and reducing population-level inequalities, including the pathways through which the social environment intersects with biological processes to shape differential outcomes of health and well-being in later life. 
 show_post_thumbnail: true
 show_author_byline: false
 show_post_date: false
