@@ -15,9 +15,7 @@ intro: |
   
   As a university educator, I have taught courses in quantitative methods and gerontology. In all of my courses I employ a [*sentipensante* pedagogy](https://www.laurarendon.net/sentipensante-pedagogy/), which allows my students to engage in deep learning through contemplative practices that connect the course material to their lived experiences and backgrounds. This is part of realizing my goals of diversity, equity, inclusion, and accessibility (DEIA) in the academy. 
   
-  Across my educational training, interdisciplinary theory, methods, and approaches in health and aging research have influenced my work and have helped me better organize how to talk about the multifaceted processes underlying disease and population health. 
-  
-  
+
   
 show_outro: true
 outro: |
