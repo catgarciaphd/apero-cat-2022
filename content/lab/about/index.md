@@ -14,9 +14,9 @@ categories:
 
 ## Welcome!
 
-The Aging in Diverse Populations Lab is dedicated to training undergraduate and graduate students in population health and aging, using population-based survey data (e.g., Health and Retirement Study) and mixed-methods to explore health disparities and inequities in the U.S. and across the globe. 
+The Aging in Diverse Populations Lab is dedicated to training undergraduate and graduate students in population health and aging, using population-based survey data (e.g., Health and Retirement Study) and mixed-methods to better understand the root causes and processes related to health disparities and inequities in the U.S. and across the globe. 
 
-As part of a student's training in population aging and health at Syracuse University, the lab recommends:
+As part of a student's training in population aging and health at Syracuse University, the ADP lab recommends:
 
 - Undergraduate students to complete the [**Gerontology Interdisciplinary Minor**](https://asi.syr.edu/education/undergraduate-gerontology-minor/).
 
