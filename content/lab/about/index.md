@@ -14,7 +14,9 @@ categories:
 
 ## Welcome!
 
-The Aging in Diverse Populations Lab is dedicated to training undergraduate and graduate students in population health and aging, using population-based survey data (e.g., Health and Retirement Study) and mixed-methods to better understand the root causes and processes related to health disparities and inequities in the U.S. and across the globe. 
+The Aging in Diverse Populations (ADP) Lab advances knowledge on the root cuses and processes underlying population-level inequities in the U.S. and globally, including the mechanisms and pathways through which social and public policy environments intersect with biological processes to shape differential outcomes of health and well-being in later life. 
+
+The ADP lab leverages publicly available, community-based, and open-source data to accurately reflect the diversity within our communities. The ADP aims to address limitations in data infrastructure and seeks to foster a multidiscilinary collaboration that capitalizes on advances in population-based survey data to gain a better understanding of social, psychological, and biological factors influencing healthy aging. 
 
 As part of a student's training in population aging and health at Syracuse University, the ADP lab recommends:
 
@@ -26,10 +28,10 @@ As part of a student's training in population aging and health at Syracuse Unive
 
 ### Objectives 
 
-- Understand differences in aging processes across diverse populations. 
-- Identify and understand how structural, environmental, sociocultural, behavioral, and biological factors lead to disparities in health at older ages.
+- Understand differences in aging experiences and processes across diverse populations and cultures. 
+- Examine how structural, environmental, sociocultural, behavioral, and biological factors lead to disparities in health and social conditions in adulthood.
+- Use appropriate methodological approaches to understand the multilevel causes of health disparities and the processes underlying them.
 - Promote equity and inclusion in aging research, with a goal of increasing diversity and representation.
-- Use appropriate methodological approaches to understand the causes of health disparities and the processes underlying them.
 - Disseminate information about research and interventions to the public, scientific and medical communities, stakeholder advocacy, community, and older adult-support organizations, the media, and policymakers.
 
 ---
