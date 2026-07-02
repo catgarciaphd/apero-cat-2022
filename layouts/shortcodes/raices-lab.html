@@ -1,0 +1,270 @@
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&display=swap" rel="stylesheet">
+
+<style>
+  /* ===== RAÍCES Lab — palette from la flor de maga + the keel-billed toucan ===== */
+  :root {
+    --maga-crimson: #C42348;   /* la flor de maga — the bloom */
+    --maga-coral:   #F25C7A;   /* lighter petal / highlight */
+    --selva-teal:   #0E5B58;   /* deep jungle teal — cool, grounding base */
+    --tucan-turq:   #1CA7A0;   /* toucan beak turquoise */
+    --tucan-amber:  #F7A52B;   /* toucan beak amber */
+    --selva-night:  #14302E;   /* toucan body — text & deep ground */
+    --hueso:        #FBF6EC;   /* hueso / cream — content background */
+    --hueso-soft:   #F3EBDC;   /* warm card tint */
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  .raices-page {
+    font-family: 'Atkinson Hyperlegible', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    color: var(--selva-night);
+    line-height: 1.65;
+    background: var(--hueso);
+  }
+  /* Hugo Apéro: let the page span its container */
+  .raices-page article, .raices-page .main-content { max-width: none; }
+
+  .raices-wrap { max-width: 920px; margin: 0 auto; padding: 0 22px; }
+
+  /* ---------- Hero ---------- */
+  .raices-hero {
+    background:
+      radial-gradient(120% 120% at 80% -10%, rgba(28,167,160,0.22), transparent 55%),
+      radial-gradient(110% 110% at 0% 0%, rgba(196,35,72,0.18), transparent 50%),
+      var(--selva-teal);
+    color: var(--hueso);
+    text-align: center;
+    padding: 64px 22px 48px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .raices-emblem {
+    width: 116px; height: 116px; margin: 0 auto 22px;
+    display: block;
+    animation: root-grow 1100ms cubic-bezier(.22,.61,.36,1) both;
+    transform-origin: 50% 30%;
+  }
+  @keyframes root-grow {
+    from { opacity: 0; transform: scale(.82) translateY(8px); }
+    to   { opacity: 1; transform: scale(1) translateY(0); }
+  }
+  .raices-eyebrow {
+    text-transform: uppercase; letter-spacing: 0.22em;
+    font-size: 0.74rem; font-weight: 700;
+    color: var(--tucan-amber);
+    margin-bottom: 14px;
+  }
+  .raices-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 600; font-optical-sizing: auto;
+    font-size: clamp(2.8rem, 7vw, 4.6rem);
+    line-height: 1.02; letter-spacing: -0.01em;
+    margin-bottom: 10px;
+  }
+  .raices-title .lab { font-weight: 400; font-style: italic; opacity: 0.9; }
+  .raices-fullname {
+    font-size: clamp(1rem, 2.4vw, 1.22rem);
+    max-width: 30ch; margin: 0 auto 18px; opacity: 0.95;
+  }
+  .raices-meaning {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic; font-size: 1.05rem;
+    color: var(--maga-coral);
+    margin-bottom: 4px;
+  }
+  .raices-meaning span { color: var(--hueso); opacity: 0.85; font-style: normal; }
+  /* toucan-beak gradient rule */
+  .beak-rule {
+    height: 4px; width: 180px; margin: 26px auto 0; border: 0; border-radius: 4px;
+    background: linear-gradient(90deg, var(--tucan-turq), var(--tucan-amber) 45%, var(--maga-crimson));
+  }
+
+  /* ---------- Sections ---------- */
+  .raices-section { padding: 52px 0 8px; }
+  .section-eyebrow {
+    text-transform: uppercase; letter-spacing: 0.18em;
+    font-size: 0.72rem; font-weight: 700; color: var(--maga-crimson);
+    margin-bottom: 10px;
+  }
+  .section-h2 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+    font-size: clamp(1.7rem, 4vw, 2.3rem); color: var(--selva-teal);
+    line-height: 1.1; margin-bottom: 16px;
+  }
+  .lede { font-size: 1.12rem; max-width: 62ch; }
+  .lede + .lede { margin-top: 16px; }
+
+  /* meaning block */
+  .roots-block {
+    background: var(--hueso-soft);
+    border-left: 5px solid var(--maga-crimson);
+    border-radius: 0 14px 14px 0;
+    padding: 28px 30px;
+    margin-top: 8px;
+  }
+  .roots-block p { font-size: 1.08rem; }
+  .roots-block p + p { margin-top: 14px; }
+  .acronym { list-style: none; margin: 18px 0 0; display: grid; gap: 8px; }
+  .acronym li { display: flex; gap: 12px; align-items: baseline; font-size: 1.04rem; }
+  .acronym .k {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 600;
+    color: var(--maga-crimson); font-size: 1.2rem; min-width: 1.4ch;
+  }
+
+  /* research cards */
+  .focus-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px; margin-top: 26px;
+  }
+  .focus-card {
+    background: #fff; border: 1px solid rgba(20,48,46,0.08);
+    border-top: 4px solid var(--tucan-turq);
+    border-radius: 14px; padding: 24px 22px;
+  }
+  .focus-card:nth-child(2) { border-top-color: var(--maga-crimson); }
+  .focus-card:nth-child(3) { border-top-color: var(--tucan-amber); }
+  .focus-card h3 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 600;
+    font-size: 1.22rem; color: var(--selva-night); margin-bottom: 8px;
+  }
+  .focus-card p { font-size: 0.99rem; }
+
+  /* training / join */
+  .join {
+    background: var(--selva-night); color: var(--hueso);
+    border-radius: 20px; padding: 44px 34px; margin-top: 36px; text-align: center;
+  }
+  .join .section-eyebrow { color: var(--tucan-amber); }
+  .join .section-h2 { color: var(--hueso); }
+  .join p { max-width: 56ch; margin: 0 auto 14px; opacity: 0.92; font-size: 1.08rem; }
+  .join-cta {
+    display: inline-block; margin-top: 14px;
+    background: var(--maga-crimson); color: var(--hueso);
+    font-weight: 700; text-decoration: none;
+    padding: 13px 26px; border-radius: 999px;
+    transition: transform 140ms ease, background 140ms ease;
+  }
+  .join-cta:hover { background: var(--maga-coral); transform: translateY(-2px); }
+  .join-cta:focus-visible { outline: 3px solid var(--tucan-amber); outline-offset: 3px; }
+
+  /* dedication */
+  .dedication {
+    text-align: center; padding: 40px 22px 8px;
+    font-family: 'Fraunces', Georgia, serif; font-style: italic;
+    color: var(--selva-teal); font-size: 1.06rem;
+  }
+  .dedication .bloom { color: var(--maga-crimson); font-style: normal; }
+
+  @media (max-width: 600px) {
+    .raices-hero { padding: 48px 18px 38px; border-radius: 16px; }
+    .roots-block { padding: 22px 20px; }
+    .join { padding: 34px 22px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .raices-emblem { animation: none; }
+    .join-cta { transition: none; }
+  }
+</style>
+
+<div class="raices-page">
+
+  <!-- ===================== HERO ===================== -->
+  <header class="raices-hero">
+    <!-- Signature emblem: flor de maga bloom rooted in spreading roots -->
+    <svg class="raices-emblem" viewBox="0 0 120 120" role="img" aria-label="A flor de maga bloom growing from spreading roots">
+      <!-- roots -->
+      <g fill="none" stroke="#F7A52B" stroke-width="2.4" stroke-linecap="round">
+        <path d="M60 70 C60 84 60 92 60 104"/>
+        <path d="M60 80 C50 86 44 92 38 102"/>
+        <path d="M60 80 C70 86 76 92 82 102"/>
+        <path d="M60 90 C54 96 50 100 47 108"/>
+        <path d="M60 90 C66 96 70 100 73 108"/>
+      </g>
+      <!-- petals -->
+      <g fill="#C42348">
+        <ellipse cx="60" cy="38" rx="13" ry="22" transform="rotate(0 60 38)"/>
+        <ellipse cx="60" cy="38" rx="13" ry="22" transform="rotate(72 60 50)"/>
+        <ellipse cx="60" cy="38" rx="13" ry="22" transform="rotate(144 60 50)"/>
+        <ellipse cx="60" cy="38" rx="13" ry="22" transform="rotate(216 60 50)"/>
+        <ellipse cx="60" cy="38" rx="13" ry="22" transform="rotate(288 60 50)"/>
+      </g>
+      <circle cx="60" cy="50" r="8" fill="#F25C7A"/>
+      <circle cx="60" cy="50" r="3.4" fill="#F7A52B"/>
+    </svg>
+
+    <p class="raices-eyebrow">Population Aging &amp; Health Science</p>
+    <h1 class="raices-title">RAÍCES <span class="lab">Lab</span></h1>
+    <p class="raices-fullname">Research on Aging, Identity, Culture, and Equity Studies</p>
+    <p class="raices-meaning">raíces &nbsp;·&nbsp; <span>roots</span></p>
+    <hr class="beak-rule" aria-hidden="true">
+  </header>
+
+  <div class="raices-wrap">
+
+    <!-- ===================== MEANING / ROOTS ===================== -->
+    <section class="raices-section">
+      <p class="section-eyebrow">What's in a name</p>
+      <h2 class="section-h2">Where we come from shapes how we age</h2>
+      <div class="roots-block">
+        <p>The RAÍCES Lab takes its name from the Spanish word for <em>roots</em> — a nod to the
+          ancestry, culture, and community that ground every life as it grows older. The lab is rooted in
+          my own heritage as a Latina of Honduran and Puerto Rican descent, and in the people and places
+          that shaped me.</p>
+        <p>We study aging as something deeply situated: in identity, in culture, in family, and in the
+          conditions that make later life more or less equitable. The name also carries the threads
+          of our work:</p>
+        <ul class="acronym">
+          <li><span class="k">R</span> <strong>Research</strong> — </li>
+          <li><span class="k">A</span> <strong>Aging</strong> — </li> 
+          <li><span class="k">I</span> <strong>Identity</strong> — race, ethnicity, language, and belonging</li>
+          <li><span class="k">C</span> <strong>Culture</strong> — heritage, family, and community context</li>
+          <li><span class="k">E</span> <strong>Equity</strong> — fairness in health and aging</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== RESEARCH FOCUS ===================== -->
+    <section class="raices-section">
+      <p class="section-eyebrow">Our focus</p>
+      <h2 class="section-h2">Minority aging, studied with care</h2>
+      <p class="lede">As a population aging and health scientist, I lead work that centers the experiences
+        of Latino and other minoritized older adults — populations too often overlooked in aging research.
+        We ask how culture, identity, and structural inequities shape health and well-being in later life.</p>
+      <div class="focus-grid">
+        <div class="focus-card">
+          <h3>Latino Aging</h3>
+          <p>How heritage, immigration, language, and family caregiving shape the health and well-being of
+            older Latinos across diverse communities.</p>
+        </div>
+        <div class="focus-card">
+          <h3>Minority Aging &amp; Equity</h3>
+          <p>How structural inequities accumulate across the life course to produce disparities in how
+            different groups experience growing older.</p>
+        </div>
+        <div class="focus-card">
+          <h3>Population Health</h3>
+          <p>Population-level patterns in aging and health, using rigorous quantitative methods to surface
+            what drives differences between groups.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TRAINING / JOIN ===================== -->
+    <section class="join">
+      <p class="section-eyebrow">Train with us</p>
+      <h2 class="section-h2">Growing the next generation of aging scholars</h2>
+      <p>The RAÍCES Lab is a training home for undergraduate and graduate students who want to do
+        meaningful work on Latino aging and minority aging. Students learn to design studies, work with
+        population data, and ask questions that matter for equity — mentored every step of the way.</p>
+      <p>If you're a student curious about aging, identity, and health, I'd love to hear from you.</p>
+      <a class="join-cta" href="mailto:your-email@university.edu">Get in touch</a>
+    </section>
+
+    <!-- ===================== DEDICATION ===================== -->
+    <p class="dedication">
+      In loving memory of my father <span class="bloom">✿</span><br>
+      whose roots are part of everything that grows here.
+    </p>
+
+  </div>
+</div>
