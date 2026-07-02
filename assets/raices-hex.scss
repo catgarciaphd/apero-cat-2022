@@ -1,0 +1,41 @@
+// ============================================================
+// RAÍCES palette for Hugo Apéro
+// Colors drawn from la flor de maga + the keel-billed toucan
+//   maga crimson  #C42348   selva teal   #0E5B58
+//   toucan amber  #F7A52B   selva night  #14302E
+//   hueso (cream) #FBF6EC   warm tint    #F3EBDC
+//
+// This file MUST live in the project-root  assets/  folder
+// (NOT inside themes/). The filename contains "hex" so Apéro
+// reads the custom hex codes below.
+// In config.toml [params]:  theme = ""   custom_theme = "raices-hex"
+// ============================================================
+
+// page + sidebar backgrounds
+$siteBgColorCustom:        #FBF6EC;   // hueso / cream
+$sidebarBgColorCustom:     #F3EBDC;   // warm tint (About sidebar)
+
+// text
+$textColorCustom:          #14302E;   // deep selva night
+$sidebarTextColorCustom:   #14302E;
+
+// headings
+$headlineColorCustom:      #C42348;   // flor de maga crimson (big headline accent)
+$headingColorCustom:       #0E5B58;   // deep jungle teal
+
+// links
+$bodyLinkColorCustom:      #C42348;   // crimson links in body text
+$navLinkColorCustom:       #14302E;   // dark, legible top-nav links
+$sidebarLinkColorCustom:   #C42348;
+
+// footer
+$footerTextColorCustom:    #0E5B58;   // muted teal
+
+// buttons
+$buttonTextColorCustom:        #FBF6EC;   // cream text
+$buttonBgColorCustom:          #0E5B58;   // teal button (cool, inviting)
+$buttonHoverTextColorCustom:   #14302E;   // dark text on hover
+$buttonHoverBgColorCustom:     #F7A52B;   // toucan amber on hover
+
+// borders / rules
+$borderColorCustom:        #E3D4BE;   // soft warm border
