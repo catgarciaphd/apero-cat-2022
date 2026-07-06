@@ -64,7 +64,7 @@
   .raices-title .lab { font-weight: 400; font-style: italic; opacity: 0.9; }
   .raices-fullname {
     font-size: clamp(1rem, 2.4vw, 1.22rem);
-    max-width: 30ch; margin: 0 auto 18px; opacity: 0.95;
+    max-width: 34ch; margin: 0 auto 18px; opacity: 0.95;
   }
   .raices-meaning {
     font-family: 'Fraunces', Georgia, serif;
@@ -104,7 +104,7 @@
   }
   .roots-block p { font-size: 1.08rem; }
   .roots-block p + p { margin-top: 14px; }
-  .acronym { list-style: none; margin: 18px 0 0; display: grid; gap: 8px; }
+  .acronym { list-style: none; margin: 18px 0 0; display: grid; gap: 9px; }
   .acronym li { display: flex; gap: 12px; align-items: baseline; font-size: 1.04rem; }
   .acronym .k {
     font-family: 'Fraunces', Georgia, serif; font-weight: 600;
@@ -129,27 +129,64 @@
   }
   .focus-card p { font-size: 0.99rem; }
 
+  /* ---------- Publications ---------- */
+  .pub-note {
+    font-size: 1.06rem; max-width: 62ch; margin-bottom: 8px;
+  }
+  .pub-list { list-style: none; margin: 22px 0 4px; display: grid; gap: 0; }
+  .pub-item {
+    padding: 18px 4px 18px 20px;
+    border-left: 3px solid var(--tucan-turq);
+    position: relative;
+  }
+  .pub-item + .pub-item { border-top: 1px solid rgba(20,48,46,0.08); }
+  .pub-item .authors { font-size: 1.0rem; }
+  .pub-item .authors .me { font-weight: 700; color: var(--selva-night); }
+  .pub-item .year { color: var(--maga-crimson); font-weight: 700; }
+  .pub-item .ptitle {
+    font-family: 'Fraunces', Georgia, serif; font-style: italic;
+    font-size: 1.08rem; color: var(--selva-teal);
+    text-decoration: none; display: inline;
+    border-bottom: 1px solid transparent;
+    transition: border-color 120ms ease;
+  }
+  .pub-item .ptitle:hover { border-bottom-color: var(--selva-teal); }
+  .pub-item .venue { font-size: 0.98rem; opacity: 0.85; }
+  .pub-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+
+  /* generic pill button */
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: 'Atkinson Hyperlegible', sans-serif; font-weight: 700;
+    font-size: 0.97rem; text-decoration: none;
+    padding: 11px 20px; border-radius: 999px;
+    border: 2px solid var(--selva-teal); color: var(--selva-teal);
+    background: transparent;
+    transition: transform 130ms ease, background 130ms ease, color 130ms ease;
+  }
+  .btn svg { width: 18px; height: 18px; flex: none; }
+  .btn:hover { background: var(--selva-teal); color: var(--hueso); transform: translateY(-2px); }
+  .btn:focus-visible { outline: 3px solid var(--tucan-amber); outline-offset: 3px; }
+  .btn-solid { background: var(--maga-crimson); border-color: var(--maga-crimson); color: var(--hueso); }
+  .btn-solid:hover { background: var(--maga-coral); border-color: var(--maga-coral); color: var(--selva-night); }
+
   /* training / join */
   .join {
     background: var(--selva-night); color: var(--hueso);
-    border-radius: 20px; padding: 44px 34px; margin-top: 36px; text-align: center;
+    border-radius: 20px; padding: 44px 34px; margin-top: 40px; text-align: center;
   }
   .join .section-eyebrow { color: var(--tucan-amber); }
   .join .section-h2 { color: var(--hueso); }
   .join p { max-width: 56ch; margin: 0 auto 14px; opacity: 0.92; font-size: 1.08rem; }
-  .join-cta {
-    display: inline-block; margin-top: 14px;
-    background: var(--maga-crimson); color: var(--hueso);
-    font-weight: 700; text-decoration: none;
-    padding: 13px 26px; border-radius: 999px;
-    transition: transform 140ms ease, background 140ms ease;
-  }
-  .join-cta:hover { background: var(--maga-coral); transform: translateY(-2px); }
-  .join-cta:focus-visible { outline: 3px solid var(--tucan-amber); outline-offset: 3px; }
+  .join .btn { border-color: var(--hueso); color: var(--hueso); margin-top: 14px; }
+  .join .btn:hover { background: var(--hueso); color: var(--selva-night); }
+
+  /* ---------- Contact ---------- */
+  .contact-grid { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
 
   /* dedication */
   .dedication {
-    text-align: center; padding: 40px 22px 8px;
+    text-align: center; padding: 46px 22px 10px;
     font-family: 'Fraunces', Georgia, serif; font-style: italic;
     color: var(--selva-teal); font-size: 1.06rem;
   }
@@ -159,10 +196,11 @@
     .raices-hero { padding: 48px 18px 38px; border-radius: 16px; }
     .roots-block { padding: 22px 20px; }
     .join { padding: 34px 22px; }
+    .btn { width: 100%; justify-content: center; }
   }
   @media (prefers-reduced-motion: reduce) {
     .raices-emblem { animation: none; }
-    .join-cta { transition: none; }
+    .btn { transition: none; }
   }
 </style>
 
@@ -170,9 +208,7 @@
 
   <!-- ===================== HERO ===================== -->
   <header class="raices-hero">
-    <!-- Signature emblem: flor de maga bloom rooted in spreading roots -->
     <svg class="raices-emblem" viewBox="0 0 120 120" role="img" aria-label="A flor de maga bloom growing from spreading roots">
-      <!-- roots -->
       <g fill="none" stroke="#F7A52B" stroke-width="2.4" stroke-linecap="round">
         <path d="M60 70 C60 84 60 92 60 104"/>
         <path d="M60 80 C50 86 44 92 38 102"/>
@@ -180,7 +216,6 @@
         <path d="M60 90 C54 96 50 100 47 108"/>
         <path d="M60 90 C66 96 70 100 73 108"/>
       </g>
-      <!-- petals -->
       <g fill="#C42348">
         <ellipse cx="60" cy="38" rx="13" ry="22" transform="rotate(0 60 38)"/>
         <ellipse cx="60" cy="38" rx="13" ry="22" transform="rotate(72 60 50)"/>
@@ -211,14 +246,15 @@
           my own heritage as a Latina of Honduran and Puerto Rican descent, and in the people and places
           that shaped me.</p>
         <p>We study aging as something deeply situated: in identity, in culture, in family, and in the
-          conditions that make later life more or less equitable. The name also carries the threads
+          conditions that make later life more or less equitable. The name also carries the six threads
           of our work:</p>
         <ul class="acronym">
-          <li><span class="k">R</span> <strong>Research</strong> — </li>
-          <li><span class="k">A</span> <strong>Aging</strong> — </li> 
+          <li><span class="k">R</span> <strong>Research</strong> — rigorous, community-grounded science</li>
+          <li><span class="k">A</span> <strong>Aging</strong> — health and well-being across the life course</li>
           <li><span class="k">I</span> <strong>Identity</strong> — race, ethnicity, language, and belonging</li>
           <li><span class="k">C</span> <strong>Culture</strong> — heritage, family, and community context</li>
-          <li><span class="k">E</span> <strong>Equity</strong> — fairness in health and aging</li>
+          <li><span class="k">E</span> <strong>Equity</strong> — fairness in health and later life</li>
+          <li><span class="k">S</span> <strong>Studies</strong> — training the next generation of scholars</li>
         </ul>
       </div>
     </section>
@@ -249,6 +285,62 @@
       </div>
     </section>
 
+    <!-- ===================== SELECTED PUBLICATIONS ===================== -->
+    <section class="raices-section">
+      <p class="section-eyebrow">Selected work</p>
+      <h2 class="section-h2">Publications</h2>
+      <p class="pub-note">A selection of recent and representative work. For the complete, current list,
+        see Google Scholar or ORCID below.</p>
+      <ul class="pub-list">
+        <li class="pub-item">
+          <span class="authors"><span class="me">García, C.</span>, Kemp, B. R., Boen, C., &amp; Garcia, M. A.</span>
+          (<span class="year">2026</span>).
+          <a class="ptitle" href="https://doi.org/10.1093/geronb/gbag039" target="_blank" rel="noopener">Heterogeneity in healthy aging among U.S. Latinos: A dual functionality perspective</a>.
+          <span class="venue">The Journals of Gerontology: Series B.</span>
+        </li>
+        <li class="pub-item">
+          <span class="authors">Brown, L. L., <span class="me">García, C.</span>, Reeves, A., Pamplin, J. R., &amp; Mitchell, U. A.</span>
+          (<span class="year">2022</span>).
+          <a class="ptitle" href="https://doi.org/10.1177/08982643221086333" target="_blank" rel="noopener">Stress is a latent construct: Exploring the differential experience of stress and discrimination on depressive symptoms among Black older adults</a>.
+          <span class="venue">Journal of Aging and Health, 34(3), 334–346.</span>
+        </li>
+        <li class="pub-item">
+          <span class="authors">Garcia, M. A., Warner, D. F., <span class="me">García, C.</span>, Downer, B., &amp; Raji, M.</span>
+          (<span class="year">2021</span>).
+          <a class="ptitle" href="https://doi.org/10.1093/geroni/igab039" target="_blank" rel="noopener">Age patterns in self-reported cognitive impairment among older Latino subgroups and non-Latino Whites in the U.S., 1997–2018</a>.
+          <span class="venue">Innovation in Aging, 5(4).</span>
+        </li>
+        <li class="pub-item">
+          <span class="authors">Hargrove, T. W., <span class="me">García, C.</span>, &amp; Cagney, K. A.</span>
+          (<span class="year">2021</span>).
+          <a class="ptitle" href="https://doi.org/10.1093/ppar/praa041" target="_blank" rel="noopener">The role of neighborhoods in shaping the aging experience during times of crisis</a>.
+          <span class="venue">Public Policy &amp; Aging Report, 31(1), 38–43.</span>
+        </li>
+        <li class="pub-item">
+          <span class="authors"><span class="me">García, C.</span>, Garcia, M. A., Chiu, C.-T., Rivera, F. I., &amp; Raji, M.</span>
+          (<span class="year">2019</span>).
+          <a class="ptitle" href="https://doi.org/10.1093/geront/gny107" target="_blank" rel="noopener">Life expectancies with depression by age of migration and gender among older Mexican Americans</a>.
+          <span class="venue">The Gerontologist, 59(5), 877–885.</span>
+        </li>
+        <li class="pub-item">
+          <span class="authors">Garcia, M. A., <span class="me">García, C.</span>, Chiu, C.-T., Raji, M., &amp; Markides, K. S.</span>
+          (<span class="year">2018</span>).
+          <a class="ptitle" href="https://doi.org/10.1093/geroni/igy014" target="_blank" rel="noopener">A comprehensive analysis of morbidity life expectancies among older Hispanic subgroups in the United States: Variation by nativity and country of origin</a>.
+          <span class="venue">Innovation in Aging, 2(2).</span>
+        </li>
+      </ul>
+      <div class="pub-links">
+        <a class="btn" href="https://scholar.google.com/citations?user=5PksPKwAAAAJ" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3L1 9l11 6 9-4.9V17h2V9L12 3zM5 13.2v3.3c0 1.7 3.1 3 7 3s7-1.3 7-3v-3.3l-7 3.8-7-3.8z"/></svg>
+          Google Scholar
+        </a>
+        <a class="btn" href="https://orcid.org/0000-0002-9351-1955" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zM8.3 6.6a1.1 1.1 0 110 2.2 1.1 1.1 0 010-2.2zM7.4 10h1.8v7.4H7.4V10zm3.3 0h3.3c2.4 0 3.9 1.6 3.9 3.7 0 2.3-1.7 3.7-4 3.7h-3.2V10zm1.8 1.6v4.2h1.3c1.5 0 2.4-.9 2.4-2.1 0-1.3-.8-2.1-2.4-2.1h-1.3z"/></svg>
+          ORCID
+        </a>
+      </div>
+    </section>
+
     <!-- ===================== TRAINING / JOIN ===================== -->
     <section class="join">
       <p class="section-eyebrow">Train with us</p>
@@ -257,7 +349,36 @@
         meaningful work on Latino aging and minority aging. Students learn to design studies, work with
         population data, and ask questions that matter for equity — mentored every step of the way.</p>
       <p>If you're a student curious about aging, identity, and health, I'd love to hear from you.</p>
-      <a class="join-cta" href="mailto:your-email@university.edu">Get in touch</a>
+      <a class="btn" href="mailto:cgarci24@syr.edu">Email the lab</a>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="raices-section">
+      <p class="section-eyebrow">Get in touch</p>
+      <h2 class="section-h2">Connect with the lab</h2>
+      <p class="lede">Prospective students, collaborators, and community partners are all welcome to reach out.</p>
+      <div class="contact-grid">
+        <a class="btn btn-solid" href="mailto:cgarci24@syr.edu">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          Email
+        </a>
+        <a class="btn" href="/contact/">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4a2 2 0 00-2 2v18l4-4h14a2 2 0 002-2V4a2 2 0 00-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/></svg>
+          Contact form
+        </a>
+        <a class="btn" href="https://scholar.google.com/citations?user=5PksPKwAAAAJ" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3L1 9l11 6 9-4.9V17h2V9L12 3zM5 13.2v3.3c0 1.7 3.1 3 7 3s7-1.3 7-3v-3.3l-7 3.8-7-3.8z"/></svg>
+          Google Scholar
+        </a>
+        <a class="btn" href="https://orcid.org/0000-0002-9351-1955" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zM8.3 6.6a1.1 1.1 0 110 2.2 1.1 1.1 0 010-2.2zM7.4 10h1.8v7.4H7.4V10zm3.3 0h3.3c2.4 0 3.9 1.6 3.9 3.7 0 2.3-1.7 3.7-4 3.7h-3.2V10zm1.8 1.6v4.2h1.3c1.5 0 2.4-.9 2.4-2.1 0-1.3-.8-2.1-2.4-2.1h-1.3z"/></svg>
+          ORCID
+        </a>
+        <a class="btn" href="https://www.linkedin.com/in/catherinegarciaphd/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zM8.3 18.3H5.7V9.8h2.6v8.5zM7 8.6a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm11.3 9.7h-2.6v-4.1c0-1-.4-1.7-1.3-1.7-.7 0-1.1.5-1.3 1-.1.2-.1.4-.1.7v4.1H10.4V9.8H13v1.1c.4-.5 1-1.3 2.4-1.3 1.8 0 3 1.1 3 3.6v5.1z"/></svg>
+          LinkedIn
+        </a>
+      </div>
     </section>
 
     <!-- ===================== DEDICATION ===================== -->
